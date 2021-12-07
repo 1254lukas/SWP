@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script> 
+    <title>Document</title>
+
+</head>
+
+<body>
+
+
+    <h1>Taschenrechner</h1>
+	
+	
+    <div class="input">
+        <input type="number" id="zahl1">
+        <input type="number" id="zahl2"><br>
+    </div>
+
+
+    <form>
+        <input type="radio" id="addieren" name="Input" value="add">+<br>
+        <input type="radio" id="subtrahieren" name="Input" value="sub">-<br>
+        <input type="radio" id="multiplizieren" name="Input" value="multi">*<br>
+        <input type="radio" id="dividieren" name="Input" value="div">/<br>
+    </form>
+	<br>
+	<br>
+    <button onclick="berechnen()">Berechnen</button>
+    <button onclick="reset()">Reset</button>
+	<br>
+	<br>
+    <p>Ergebniss:</p><div id="Ergebniss"> </div>
+
+
+</body>
+
+</html>
